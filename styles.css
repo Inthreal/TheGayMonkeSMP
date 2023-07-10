@@ -1,0 +1,124 @@
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/* Banner styles */
+#banner {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.banner-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Member list styles */
+.member-list {
+  list-style: none;
+}
+
+.member {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Form styles */
+form label,
+form input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
